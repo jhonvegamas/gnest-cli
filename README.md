@@ -1,12 +1,10 @@
-Sure, here's an example of what your project's readme could look like:
+# GNest CLI
 
-# Gnest CLI
-
-Gnest CLI is a command-line tool for generating common files used in NestJS projects.
+GNest CLI is a command-line tool for generating common files used in NestJS projects.
 
 ## Installation
 
-To install Gnest CLI, you must first have Node.js and npm installed. Then, run the following command:
+To install GNest CLI, you must first have Node.js and npm installed. Then, run the following command:
 
 ```
 npm install -g gnest-cli
@@ -34,19 +32,19 @@ gnest-cli dto create-user
 
 ## Core
 
-| Command  | Abbr. | Path                |
-|----------|-------|---------------------|
-| dto      | d     | core/dto/           |
-| entity   | e     | core/entities/      |
-| interface| i     | core/interfaces/    |
-| use-case | uc    | core/use-cases/     |
+| Command   | Abbr. | Path             |
+|-----------|-------|------------------|
+| dto       | d     | core/dto/        |
+| entity    | e     | core/entities/   |
+| interface | i     | core/interfaces/ |
+| use-case  | uc    | core/use-cases/  |
 
 ## Data
 
-| Command   | Abbr. | Path                |
-|-----------|-------|---------------------|
-| model     | m    | data/models/        |
-| repository| r     | data/repositories/  |
+| Command    | Abbr. | Path               |
+|------------|-------|--------------------|
+| model      | m     | data/models/       |
+| repository | r     | data/repositories/ |
 
 ## App
 
@@ -67,3 +65,7 @@ If you want to contribute to this project, feel free to fork it and send your pu
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
+## Author
+
+This CLI tool was created by [jhonvegamas](https://github.com/jhonvegamas) for personal use. Feel free to use it and modify it according to your needs. If you find any issues or have any suggestions for improvement, please open an issue or a pull request on the [gnest-cli](https://github.com/jhonvegamas/gnest-cli). Thank you for using GNest CLI!
