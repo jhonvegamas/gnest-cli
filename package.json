@@ -12,7 +12,8 @@
     "gnest": "bin/gnest.js"
   },
   "scripts": {
-    "install": "npm install -g gnest-cli"
+    "install": "npm install -g gnest-cli",
+    "start": "node bin/gnest.js"
   },
   "author": "jhonvegamas@gmail.com",
   "license": "ISC",
