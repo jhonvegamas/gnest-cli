@@ -1,13 +1,20 @@
 {
   "name": "gnest-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
   "main": "index.js",
+  "bin": {
+    "gnest": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "jhonvegamas@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonvegamas/gnest-cli.git"
+  },
   "dependencies": {
     "commander": "^10.0.1",
     "inquirer": "^9.1.5"
