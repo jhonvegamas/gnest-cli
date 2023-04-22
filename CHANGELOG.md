@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.2.0] - 2023-04-22
+## [0.1.2] - 2023-04-22
 
 ### Added
 - Added changelog
