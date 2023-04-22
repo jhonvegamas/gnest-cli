@@ -2,9 +2,14 @@
   "name": "gnest-cli",
   "version": "0.1.1",
   "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
-  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 12.9.0"
+  },
   "bin": {
-    "gnest": "./index.js"
+    "gnest": "bin/gnest.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
