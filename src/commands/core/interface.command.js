@@ -1,5 +1,5 @@
 const { Command } = require('commander');
-const { executeCommand } = require('../../execute-command');
+const { executeCommand } = require('../../utilities/execute-command');
 const { interfaceTemplate } = require('../../templates/core/interface.template');
 
 const COMMAND = 'interface';

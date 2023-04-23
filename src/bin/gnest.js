@@ -9,7 +9,7 @@ const {
     modelCommand,
     repositoryCommand,
     resourceCommand, controllerCommand, moduleCommand,
-} = require('../src/commands');
+} = require('../commands');
 
 
 const start = async () => {

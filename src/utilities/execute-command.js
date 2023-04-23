@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { kebabToPascal } = require('./utilities/kebab-to-pascal');
+const { kebabToPascal } = require('./kebab-to-pascal');
 
 function executeCommand(
     fileName,

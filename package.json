@@ -9,11 +9,11 @@
     "node": ">= 12.9.0"
   },
   "bin": {
-    "gnest": "bin/gnest.js"
+    "gnest": "src/bin/gnest.js"
   },
   "scripts": {
     "install": "npm install -g gnest-cli",
-    "start": "node bin/gnest.js"
+    "start": "node src/bin/gnest.js"
   },
   "author": "jhonvegamas@gmail.com",
   "license": "ISC",

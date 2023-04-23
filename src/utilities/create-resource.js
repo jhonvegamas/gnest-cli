@@ -1,4 +1,4 @@
-const { executeCommand } = require('../execute-command');
+const { executeCommand } = require('./execute-command');
 const { dtoTemplate } = require('../templates/core/dto.template');
 const { entityTemplate } = require('../templates/core/entity.template');
 const { interfaceTemplate } = require('../templates/core/interface.template');

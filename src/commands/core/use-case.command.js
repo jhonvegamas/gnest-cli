@@ -1,5 +1,5 @@
 const { Command } = require('commander');
-const { executeCommand } = require('../../execute-command');
+const { executeCommand } = require('../../utilities/execute-command');
 const { useCaseTemplate } = require('../../templates/core/use-case.template');
 
 const COMMAND = 'case';
