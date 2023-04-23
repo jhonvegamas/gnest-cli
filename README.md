@@ -48,15 +48,16 @@ gnest-cli dto create-user
 
 ## App
 
-| Command    | Abbr. | Path   |
-|------------|-------|--------|
-| controller | c     | /      |
+| Command    | Abbr. | Path |
+|------------|-------|------|
+| module     | N/A   | /    |
+| controller | N/A   | /    |
 
 ## Others
 
-| Command | Abbr. | Path |
-|---------|-------|------|
-| module  | N/A   | /    |
+| Command  | Abbr. | Path |
+|----------|-------|------|
+| resource | N/A   | /    |
 
 ## Contributions
 
@@ -68,4 +69,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Author
 
-This CLI tool was created by [jhonvegamas](https://github.com/jhonvegamas) for personal use. Feel free to use it and modify it according to your needs. If you find any issues or have any suggestions for improvement, please open an issue or a pull request on the [gnest-cli](https://github.com/jhonvegamas/gnest-cli). Thank you for using GNest CLI!
+This CLI tool was created by [jhonvegamas](https://github.com/jhonvegamas) for personal use. Feel free to use it and
+modify it according to your needs. If you find any issues or have any suggestions for improvement, please open an issue
+or a pull request on the [gnest-cli](https://github.com/jhonvegamas/gnest-cli). Thank you for using GNest CLI!
