@@ -3,12 +3,14 @@
 ## [0.1.2] - 2023-04-22
 
 ### Added
-- Added changelog
-- bin folder
-- Added gnest.js
+- Added controller command
+- Added module command
+- Added resource command
 
 ### Changed
 - Changed package.json
+- Changed README.md
+- Changed gnest.js
 
 ### Removed
 - Removed index.js
