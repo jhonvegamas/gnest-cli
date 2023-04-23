@@ -2,18 +2,20 @@
   "name": "gnest-cli",
   "version": "0.1.3",
   "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
+  "keywords": [
+    "cli",
+    "nestjs",
+    "generator"
+  ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "preferGlobal": true
   },
   "engines": {
     "node": ">= 12.9.0"
   },
   "bin": {
     "gnest": "src/bin/gnest.js"
-  },
-  "scripts": {
-    "install": "npm install -g gnest-cli",
-    "start": "node src/bin/gnest.js"
   },
   "author": "jhonvegamas@gmail.com",
   "license": "ISC",
