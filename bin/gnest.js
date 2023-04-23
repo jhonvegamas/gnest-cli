@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { Command } = require('commander')
+const { Command } = require('commander');
 const {
     entityCommand,
     dtoCommand,
@@ -8,25 +8,31 @@ const {
     useCaseCommand,
     modelCommand,
     repositoryCommand,
-} = require('../src/commands')
+    resourceCommand, controllerCommand, moduleCommand,
+} = require('../src/commands');
 
 
 const start = async () => {
-    const program = new Command()
-    program.version('1.0.0')
+    const program = new Command();
+    program.version('1.0.0');
 
     // core commands
-    program.addCommand(dtoCommand)
-    program.addCommand(entityCommand)
-    program.addCommand(interfaceCommand)
-    program.addCommand(useCaseCommand)
+    program.addCommand(dtoCommand);
+    program.addCommand(entityCommand);
+    program.addCommand(interfaceCommand);
+    program.addCommand(useCaseCommand);
 
     // data commands
-    program.addCommand(modelCommand)
-    program.addCommand(repositoryCommand)
+    program.addCommand(modelCommand);
+    program.addCommand(repositoryCommand);
 
-    program.parse(process.argv)
+    // other commands
+    program.addCommand(controllerCommand);
+    program.addCommand(moduleCommand);
+    program.addCommand(resourceCommand);
 
-}
+    program.parse(process.argv);
 
-start()
+};
+
+start();

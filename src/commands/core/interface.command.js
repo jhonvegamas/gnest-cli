@@ -1,6 +1,6 @@
-const {Command} = require('commander');
-const {executeCommand} = require('../../execute-command');
-const {interfaceTemplate} = require('../../templates/core/interface.template');
+const { Command } = require('commander');
+const { executeCommand } = require('../../execute-command');
+const { interfaceTemplate } = require('../../templates/core/interface.template');
 
 const COMMAND = 'interface';
 const interfaceCommand = new Command()
@@ -14,7 +14,7 @@ const interfaceCommand = new Command()
             'core/interfaces',
             interfaceTemplate,
             COMMAND,
-            {customClassName: fileName}
+            { customClassName: fileName },
         );
     });
 

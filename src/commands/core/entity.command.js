@@ -1,6 +1,6 @@
-const {Command} = require('commander');
-const {executeCommand} = require('../../execute-command');
-const {entityTemplate} = require('../../templates/core/entity.template');
+const { Command } = require('commander');
+const { executeCommand } = require('../../execute-command');
+const { entityTemplate } = require('../../templates/core/entity.template');
 
 const COMMAND = 'entity';
 const dtoCommand = new Command()
