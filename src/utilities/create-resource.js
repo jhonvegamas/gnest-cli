@@ -29,7 +29,7 @@ function createResource(resource) {
     // core files
     executeCommand('create-' + resource, dtoFolder, dtoTemplate, 'dto');
     executeCommand(resource, entitiesFolder, entityTemplate, 'entity');
-    executeCommand('i-' + resource, interfacesFolder, interfaceTemplate, 'interface',
+    executeCommand('i-' + resource + '-service', interfacesFolder, interfaceTemplate, 'interface',
         { customClassName: resource },
     );
     executeCommand('create-' + resource, useCasesFolder, useCaseTemplate, 'case');
