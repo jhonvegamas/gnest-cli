@@ -1,6 +1,6 @@
 {
   "name": "gnest-cli",
-  "version": "0.1.7-alpha.1",
+  "version": "0.1.8-alpha.1",
   "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
   "scripts": {
     "postinstall": "node postinstall.js"
