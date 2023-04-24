@@ -4,7 +4,7 @@ const useCaseTemplate = `import { BadRequestException, Injectable } from '@nestj
 export class {className}Case {
   constructor() {}
 
-  async execute(): Promise<ObjectEntity> {    
+  async execute(): Promise<{className}Entity> {    
       throw new BadRequestException('Use case not implemented');    
   }
 }
