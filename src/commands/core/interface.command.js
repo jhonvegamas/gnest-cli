@@ -10,11 +10,14 @@ const interfaceCommand = new Command()
     .arguments('<file-name>')
     .action((fileName) => {
         executeCommand(
-            'i-' + fileName + '-service',
+            'i-' + fileName,
             'core/interfaces',
             interfaceTemplate,
             COMMAND,
-            { customClassName: fileName },
+            {
+                customClassName: fileName,
+                customFileName: 'i-' + fileName + '.service',
+            },
         );
     });
 
