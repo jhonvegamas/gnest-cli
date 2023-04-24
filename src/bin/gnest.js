@@ -10,11 +10,11 @@ const {
     repositoryCommand,
     resourceCommand, controllerCommand, moduleCommand,
 } = require('../commands');
-
+const packageInfo = require('../../package.json');
 
 const start = async () => {
     const program = new Command();
-    program.version('1.0.0');
+    program.version(packageInfo.version);
 
     // core commands
     program.addCommand(dtoCommand);
