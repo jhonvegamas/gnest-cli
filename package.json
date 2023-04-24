@@ -1,6 +1,6 @@
 {
   "name": "gnest-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
   "keywords": [
     "cli",
