@@ -1,7 +1,10 @@
 {
   "name": "gnest-cli",
-  "version": "0.1.5",
+  "version": "0.1.5+1",
   "description": "Custom CLI tool for generating files to NestJS project, use only for personal projects",
+  "scripts": {
+    "postinstall": "node /src/install-message.js"
+  },
   "keywords": [
     "cli",
     "nestjs",
@@ -25,6 +28,7 @@
   },
   "dependencies": {
     "commander": "^10.0.1",
+    "figlet": "^1.6.0",
     "inquirer": "^9.1.5"
   },
   "devDependencies": {
