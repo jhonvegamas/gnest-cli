@@ -17,12 +17,7 @@ export class {className}Controller {
     @Request() req,
   ): Promise<{className}Entity> {
     throw new BadRequestException('Not implemented');
-  }
-
-  @Get('own')
-  async get(@Request() req) {
-   throw new BadRequestException('Not implemented');
-  }
+  } 
 }
 `;
 
