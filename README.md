@@ -81,7 +81,7 @@ module/
 └── file.module.ts
 ```
 
-This is a typical directory structure for a NestJS module that includes a `core` and `data` folder. The `core` folder contains the business logic of the module, including DTOs, entities, interfaces, and use cases. The `data` folder contains data-related files such as models and repositories. Finally, the `stores.controller.ts` and `stores.module.ts` files are responsible for exposing the module's endpoints and for registering the module as a provider within the application.
+This is a custom directory structure for a NestJS module that includes a `core` and `data` folder. The `core` folder contains the business logic of the module, including DTOs, entities, interfaces, and use cases. The `data` folder contains data-related files such as models and repositories. Finally, the `stores.controller.ts` and `stores.module.ts` files are responsible for exposing the module's endpoints and for registering the module as a provider within the application.
 ## Contributions
 
 If you want to contribute to this project, feel free to fork it and send your pull requests!
