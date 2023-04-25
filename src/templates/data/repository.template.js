@@ -2,6 +2,8 @@ const repositoryTemplate = `import { BadRequestException, Injectable } from '@ne
 
 @Injectable()
 export class {className}Repository implements I{className}Service {
+  // Source prisma, typeorm, mongoose, etc
+  // Example: constructor(private readonly source: PrismaService) {} 
   constructor(private readonly source: SourceService) {}
 
   async create(create: Create{className}Dto): Promise<{className}Entity> {
