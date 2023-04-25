@@ -8,7 +8,7 @@ export class {className}Model implements {className}Entity {
   deletedAt: Date | null;
 
   // Source model is the model received from the source, prisma, sequelize, etc.
-  // Example: prismaModel: PrismaModel 
+  // Example: prismaModel: Prisma{className}Model 
   constructor(sourceModel: SourceModel) {
     this.id = sourceModel.id;
     this.name = sourceModel.name;    
