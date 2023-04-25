@@ -8,9 +8,9 @@ const moduleTemplate = `import { Module } from '@nestjs/common';
     // Example prisma: Prisma{className}Repository
     { provide: I{className}Service, useClass: Source{className}Repository },
   ],
-  // DataBaseModule is a module that contains repositories
+  // SourceModule is a module that contains repositories
   // Example prisma: PrismaModule
-  imports: [DataBaseModule],
+  imports: [SourceModule],
 })
 export class {className}Module {}
 `;
