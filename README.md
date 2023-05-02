@@ -2,12 +2,21 @@
 
 GNest CLI is a command-line tool for generating common files used in NestJS projects.
 
+## NPM Package
+
+[![npm version](https://badge.fury.io/js/gnest-cli.svg)](https://badge.fury.io/js/gnest-cli)
+
 ## Installation
 
 To install GNest CLI, you must first have Node.js and npm installed. Then, run the following command:
 
+### NPM
 ```
 npm install -g gnest-cli
+```
+### YARN
+```
+yarn global add gnest-cli
 ```
 
 ## Available Commands
